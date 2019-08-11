@@ -1,16 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?d37df4df49ba40ce9ef533b3aca8f217";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-
     <title>{% if page.title and page.title != "" %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     {% seo %}
     {% include meta.html %}
@@ -20,7 +10,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/log.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/logo.png">
   </head>
 
   <body>
